@@ -11,7 +11,6 @@ class MainMenu(QMenuBar):
         self.__about = help_menu.addAction('About the program...')
         self.about_qt = help_menu.addAction('about Qt...')
 
-
     @property
     def about(self):
         return self.__about
